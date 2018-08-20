@@ -1,0 +1,285 @@
+.clearfix {
+    clear: both;
+  }
+  .innerarea {
+    width: 1200px;
+    height: 60px;
+    border-bottom: 1px solid #dedede;
+    background: #fff;
+    margin: 27px auto 40px auto;
+    line-height: 60px;
+    text-align: left;
+    position: relative;
+  }
+  .dairecharge {
+    padding: 0 20px;
+  }
+  .dairecharge {
+    .dai {
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+      background: #fd4e52;
+      color: #fff;
+      text-align: center;
+      float: left;
+      line-height: 29px;
+      margin-top: 15px;
+      margin-right: 8px;
+    }
+    span.biao {
+      color: #fd4e52;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    span.time {
+      color: #4f4f4f;
+      font-size: 18px;
+      margin-left: 20px;
+    }
+  }
+  #tcin {
+    width: 163px;
+    height: 95px;
+    background: url(../assets/images/tcinbg.png) no-repeat;
+    position: absolute;
+    left: 45px;
+    top: 48px;
+    z-index: 99;
+  }
+  #tcin {
+    ul {
+      width: 115px;
+      height: 50px;
+      margin: 15px auto;
+    }
+    li {
+      line-height: 16px;
+      height: 30px;
+    }
+    li a {
+      text-decoration: none;
+      color: #343433;
+    }
+    li span {
+      font-size: 14px;
+      margin-left: 6px;
+      color: #aeaeae;
+    }
+    li span:hover{
+      color: #343433;
+    }
+    .mu {
+      width: 20px;
+      height: 20px;
+      border-radius: 20px;
+      background: #f5cb6c;
+      float: left;
+      font-size: 12px;
+      color: #fff;
+      line-height: 17px;
+      text-align: center;
+    }
+    .huan {
+      width: 20px;
+      height: 20px;
+      border-radius: 20px;
+      background: #4ec85c;
+      float: left;
+      font-size: 12px;
+      color: #fff;
+      line-height: 17px;
+      text-align: center;
+    }
+  }
+  .biaocboxclassify {
+    width: 1200px;
+    margin: auto;
+
+  .biaoin {
+    float: left;
+    width: 360px;
+    height: 420px;
+    background: #fff;
+    border: solid 1px #e0e0e0;
+    border-top: 4px solid #ff5e69;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    p {
+      text-align: center;
+    }
+    p.xsb {
+      margin: 20px auto 6px auto;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333332;
+    }
+    p.sy {
+      font-size: 16px;
+      color: #8e8e8e;
+      margin-bottom: 10px;
+    }
+    p.percent {
+      font-size: 29px;
+      color: #fd4e52;
+      font-weight: bold;
+    }
+    p.sjje {
+      margin-top: 30px;
+      margin-bottom: 13px;
+      font-size: 16px;
+      color: #525252;
+    }
+    div.percenttiao {
+      width: 300px;
+      height: 8px;
+      background-color: #ff777a;
+      border-radius: 4px;
+      margin: auto;
+    }
+    div.termbox {
+      width: 175px;
+      height: 50px;
+      margin: 33px auto 27px auto;
+      .term {
+        width: 85px;
+        border-right: 1px solid #e0e0e0;
+        text-align: left;
+        float: left;
+        .days {
+          font-size: 22px;
+          margin-left: 11px;
+        }
+        .day {
+          font-size: 16px;
+        }
+        p.tzqx {
+          text-align: left !important;
+          font-size: 16px;
+          color: #8e8e8e;
+        }
+      }
+      .mjwc {
+        text-align: right;
+        font-size: 18px;
+        color: #fd4e52;
+        line-height: 50px;
+        height: 50px;
+      }
+    }
+    div.viewmore{
+      width: 286px;
+      height: 42px;
+      border-radius: 21px;
+    border: solid 1px #fd4e52;
+    margin: auto;
+    text-align: center;
+    line-height: 42px;
+    a{
+      color:#fd4e52;
+      font-size: 20px;
+      text-decoration: none;
+      display: block;
+    }
+    }
+    p.hksj{
+      font-size: 16px;
+      color: #525252;
+      margin-bottom: 21px;
+      margin-top: 27px;
+    }
+    .bgimg{
+      position: absolute;
+      top:0;
+      z-index: -1;
+      opacity: 0;/*可以改变数值*/
+      transition: opacity 0.2s ease-in-out;/*可以改变时间*/
+      -moz-transition: opacity 0.2s ease-in-out;
+      -webkit-transition: opacity 0.2s ease-in-out;
+    }
+  }
+    .biaoin:nth-child(3n) {
+      margin-right: 0px;
+    }
+  
+  .biaoin:hover{
+    background: transparent;
+    //background: url(../assets/images/biaoinbg.png);
+    //background-size: 100%;
+    p{
+      color:#fff !important;
+    }
+    div.percenttiao {
+      background-color:#fff; 
+    }
+    div{
+      color: #fff !important;
+    }
+    .term{
+      border-right: 1px solid #fff !important;
+    }
+    div.viewmore{
+      border: solid 1px #fff;
+      background-color: #ff5e69;
+      a{
+        color: #fff !important;
+      }
+    }
+    .bgimg{
+      position: absolute;
+      top:0;
+      z-index: -1;
+      opacity: 1.0;/*可以改变数值*/
+      transition: opacity .55s ease-in-out;/*可以改变时间*/
+      -moz-transition: opacity .55s ease-in-out;
+      -webkit-transition: opacity .55s ease-in-out;
+    }
+  }
+}
+  .sqbox{
+    position: absolute;
+    width: 100%;
+    height: 259.5%;
+    background: rgba(0,0,0,.5);
+    top: 0;
+    z-index: 99;
+    .sqin{
+      background: url(../assets/images/llbg.png)no-repeat;
+      position: fixed;
+      width: 411px;
+      height: 422px;
+      top: 25%;
+      left: 40%;
+    }
+    .yjsq{
+      position: absolute;
+      top: 162px;
+      left: 160px;
+      font-size: 22px;
+    }
+    .ywcz{
+      position: absolute;
+      top: 260px;
+      left: 45px;
+      font-size: 22px;
+      color: #2b2b2b; 
+    }
+    .confirmbtn{
+      width: 174px;
+      height: 46px;
+      position: absolute;
+      top: 333px;
+      left: 100px;
+    
+    }
+  }
+  .el-pagination{
+    margin: 48px auto 100px auto;
+  }
+  .jiantou{
+    margin-left: 6px;
+    top: -3px;
+    position: relative;
+  }

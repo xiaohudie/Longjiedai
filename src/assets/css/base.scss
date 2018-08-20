@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: '微软雅黑';
+}
+
+body{
+    background-color: #f5f3f3;
+}
+
+ul,li{
+    list-style: none;
+    }
+    
+    input, button, select, textarea {
+    outline: none;
+    // -webkit-appearance: none;
+    border-radius: 0;
+    border: none;
+    background: none;
+}
+
+.flex{
+    display:flex;
+    }
+    
+    .flex1{
+    flex: 1;
+    }
+
+    .el-pagination{
+        text-align: center;
+      }
+    #app .el-pager li{
+        background: transparent;
+        border:solid 1px #cccccc;
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+        font-size: 18px;
+        color: #414141;
+        font-weight: normal;
+      }
+
+      #app .el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev{
+        background: transparent;
+        border:solid 1px #cccccc;
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+        font-size: 18px;
+        font-weight: normal;
+      }
+
+      #app .el-pagination.is-background .el-pager li:not(.disabled).active{
+          background-color: #ff777a;
+          color: #fff;
+      }
+
+      #app .el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li{
+        background-color: transparent;
+      }
